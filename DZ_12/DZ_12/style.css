@@ -1,0 +1,19 @@
+*{margin: 0;
+padding: 0;
+font-family: arial;}
+
+.list{width: 1042px;
+height: 540px;
+border: 1px solid #b7b7b7;
+margin: 0 auto;
+margin-top: 30px}
+
+.top{width: 100%;
+height: 60px;
+background-color: #1b5589}
+
+.top {background-image: url(icons/PC.png);
+background-repeat: no-repeat;
+background-size: 50px 30px;
+background-position: 30px 12px
+}

@@ -17,3 +17,50 @@ background-repeat: no-repeat;
 background-size: 50px 30px;
 background-position: 30px 12px
 }
+
+.top img{float: right;
+width: 45px;
+padding-right: 50px;
+padding-top: 7px}
+
+.top ul>li{display: inline-block;
+margin-right: 10px}
+
+.nav a{color: #8d9ca6;
+text-decoration: none;
+font-size: 12px}
+
+.check{color: white !important}
+
+.nav a:hover{color: white}
+
+.nav{margin-left: 90px;
+padding-top: 20px}
+
+h2{margin: 25px 470px;
+font-weight: normal;}
+
+.center{width: 90%;
+	height: 40px;
+	border:1px solid #cce5ff;
+	border-radius: 5px;
+	background-color: #cce5ff;
+    margin:0 auto;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+     }
+.center span{font-size: 12px;
+color: #245996}
+.centTxt{margin-right:129px}
+
+input[type="file"]{visibility:hidden;}
+
+.foto form{margin-left: -176px;}
+
+@-moz-document url-prefix(){
+	.foto form{margin-left: -156px;}
+
+	input[type="submit"]{width: 351px !important;}
+}
